@@ -77,6 +77,9 @@
     "voxel-clientmc": "git://github.com/deathcap/voxel-clientmc.git",
     "voxel-console": "git://github.com/deathcap/voxel-console.git",
     "voxel-commands": "git://github.com/deathcap/voxel-commands.git",
-    "coffeeify": "^0.7.0"
+    "coffeeify": "^0.7.0",
+    "voxel-spider": "^0.1.0",
+    "voxel-sheep": "0.0.0",
+    "voxel-sky": "^0.3.0"
   }
 }

@@ -53,7 +53,8 @@ require 'voxel-plugins-ui'
 require 'voxel-fullscreen'
 require 'voxel-keys'
 require 'kb-bindings-ui'
-
+createSpider = require 'voxel-spider'
+createSheep = require 'voxel-sheep'
 createEngine = require 'voxel-engine'
 
 main = () ->
@@ -116,6 +117,7 @@ main = () ->
 
     'voxel-mesher': {},
     'game-shell-fps-camera': {},
+     'voxel-spider': {}
 
 
     'voxel-artpacks': {}
@@ -184,5 +186,11 @@ main = () ->
     'voxel-plugins-ui': {}
     'kb-bindings-ui': {}
   }
-
+createSky = require('voxel-sky')(game);
+sky = createSky();
+game.on('tick', sky);
+if sky(1800)
+for (var i = 0; i < 250; i++)if sky(1800) {
+    createSpider(game);
+}
 main()
