@@ -116,8 +116,7 @@ main = () ->
       #cameraFOV: 110
 
     'voxel-mesher': {},
-    'game-shell-fps-camera': {},
-     'voxel-spider': {}
+    'game-shell-fps-camera': {}
 
 
     'voxel-artpacks': {}
@@ -189,8 +188,4 @@ main = () ->
 createSky = require('voxel-sky')(game);
 sky = createSky();
 game.on('tick', sky);
-if sky(1800)
-for (var i = 0; i < 250; i++)if sky(1800) {
-    createSpider(game);
-}
 main()
