@@ -22,6 +22,7 @@
     "voxel-player": "^0.1.0",
     "voxel-land": "^0.2.1",
     "voxel-trees": "^0.1.0",
-    "voxel-forest": "0.0.1"
+    "voxel-forest": "0.0.1",
+    "voxel-registry": "^0.8.1"
   }
 }
