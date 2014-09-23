@@ -4,7 +4,6 @@ var container = document.body;
 
     var game = createGame({
         texturePath: texturePath,
-        generateChunks: false,
         materials: [
             ['blocks/grass_top', 'blocks/dirt', 'blocks/grass_side'],
             'blocks/stone',
@@ -14,7 +13,6 @@ var container = document.body;
 var createPlugins = require('voxel-plugins');
 var plugins = createPlugins(game, {require:require});
 game.appendTo(container);
-plugins.load('land', opts);
 var registry = plugins.get('voxel-registry');
 var createPlayer = require('voxel-player')(game);
 var test = createPlayer("test.png");
