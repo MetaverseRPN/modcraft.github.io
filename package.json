@@ -68,7 +68,7 @@
     "voxel-furnace": "git://github.com/deathcap/voxel-furnace.git",
     "voxel-pickaxe": "git://github.com/deathcap/voxel-pickaxe.git",
     "voxel-hammer": "git://github.com/deathcap/voxel-hammer.git",
-    "voxel-wool": "git://github.com/deathcap/voxel-wool.git",
+    "voxel-wool": "^0.1.1",
     "voxel-pumpkin": "git://github.com/deathcap/voxel-pumpkin.git",
     "voxel-glass": "git://github.com/deathcap/voxel-glass.git",
     "voxel-land": "git://github.com/deathcap/voxel-land.git",
