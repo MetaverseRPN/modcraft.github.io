@@ -1,0 +1,24 @@
+{
+  "name": "modcraft",
+  "version": "0.0.0",
+  "description": "modcraft.github.io ==================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nacjm/modcraft.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nacjm/modcraft.github.io/issues"
+  },
+  "homepage": "https://github.com/nacjm/modcraft.github.io",
+  "devDependencies": {
+    "voxel-engine": "^0.20.1",
+    "programmerart-textures": "^2.1.0",
+    "voxel-player": "^0.1.0"
+  }
+}
