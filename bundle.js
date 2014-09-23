@@ -4146,6 +4146,7 @@ game.appendTo(container);
 var createPlayer = require('voxel-player');
 var test = createplayer()(game);
 test.possess();
+test.yaw.position(0, 10 , 0);
 },{"programmerart-textures":24,"voxel-engine":25,"voxel-player":66}],24:[function(require,module,exports){
 (function (__dirname){
 

@@ -13,3 +13,4 @@ game.appendTo(container);
 var createPlayer = require('voxel-player');
 var test = createplayer()(game);
 test.possess();
+test.yaw.position(0, 10 , 0);
