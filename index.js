@@ -18,6 +18,6 @@ var createRegistry = require('voxel-registry');
 var registry = createRegistry(game);
 land.enable();
 var createPlayer = require('voxel-player')(game);
-var test = createplayer();
+var test = createPlayer();
 test.possess();
 test.yaw.position(0, 10 , 0);
