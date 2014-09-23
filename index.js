@@ -11,12 +11,11 @@ var container = document.body;
             'blocks/dirt']
         
         });
+var createPlugins = require('voxel-plugins');
+var plugins = createPlugins(game, {require:require});
 game.appendTo(container);
-var createLand = require('voxel-land');
-var land = createLand(game);
-var createRegistry = require('voxel-registry');
-var registry = createRegistry(game);
-land.enable();
+plugins.load('land', opts);
+var registry = plugins.get('voxel-registry');
 var createPlayer = require('voxel-player')(game);
 var test = createPlayer();
 test.possess();
