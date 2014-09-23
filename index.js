@@ -4,12 +4,17 @@ var container = document.body;
 
     var game = createGame({
         texturePath: texturePath,
+        generateChunks: false,
         materials: [
             ['blocks/grass_top', 'blocks/dirt', 'blocks/grass_side'],
             'blocks/stone',
             'blocks/dirt']
+        
         });
 game.appendTo(container);
+var createLand = require('voxel-land');
+var land = createLand(game, opts);
+land.enable();
 var createPlayer = require('voxel-player');
 var test = createplayer()(game);
 test.possess();
