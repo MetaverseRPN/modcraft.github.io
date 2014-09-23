@@ -4747,7 +4747,7 @@ game.appendTo(container);
 plugins.load('land', opts);
 var registry = plugins.get('voxel-registry');
 var createPlayer = require('voxel-player')(game);
-var test = createPlayer();
+var test = createPlayer("test.png");
 test.possess();
 test.yaw.position(0, 10 , 0);
 },{"programmerart-textures":26,"voxel-engine":27,"voxel-player":68,"voxel-plugins":72}],26:[function(require,module,exports){

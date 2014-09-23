@@ -17,6 +17,6 @@ game.appendTo(container);
 plugins.load('land', opts);
 var registry = plugins.get('voxel-registry');
 var createPlayer = require('voxel-player')(game);
-var test = createPlayer();
+var test = createPlayer("test.png");
 test.possess();
 test.yaw.position(0, 10 , 0);
