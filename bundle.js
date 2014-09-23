@@ -11694,9 +11694,16 @@ main = function() {
       'voxel-console': {},
       'voxel-commands': {},
       'voxel-drop': {},
+      'voxel-start': {},
       'voxel-zen': {},
+      'voxel-player': {
+        image: 'player.png',
+        homePosition: [2, 14, 4],
+        homeRotation: [0, 0, 0]
+      },
       'voxel-health': {},
       'voxel-health-bar': {},
+      'voxel-health-fall': {},
       'voxel-food': {},
       'voxel-sfx': {},
       'voxel-fly': {

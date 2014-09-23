@@ -148,14 +148,14 @@ main = () ->
     'voxel-console': {}
     'voxel-commands': {}
     'voxel-drop': {}
-    #'voxel-start': {} # requires interact
+    'voxel-start': {} # requires interact
     'voxel-zen': {}
 
 
-    #'voxel-player': {image: 'player.png', homePosition: [2,14,4], homeRotation: [0,0,0]} # three.js
+    'voxel-player': {image: 'player.png', homePosition: [2,14,4], homeRotation: [0,0,0]} # three.js
     'voxel-health': {}
     'voxel-health-bar': {}
-    #'voxel-health-fall': {} # requires voxel-player
+    'voxel-health-fall': {} # requires voxel-player
     'voxel-food': {}
     'voxel-sfx': {}
     'voxel-fly': {flySpeed: 0.8, onDemand: true}
