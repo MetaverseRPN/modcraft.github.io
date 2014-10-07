@@ -185,7 +185,4 @@ main = () ->
     'voxel-plugins-ui': {}
     'kb-bindings-ui': {}
   }
-createSky = require('voxel-sky')(game);
-sky = createSky();
-game.on('tick', sky);
 main()
